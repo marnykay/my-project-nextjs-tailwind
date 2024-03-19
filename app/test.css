@@ -1,0 +1,10 @@
+@tailwind utilities;
+
+/* This is some test css to see if I can import this into the global css*/
+/* Test is a success on 3/8/2024 */
+
+@layer utilities {
+    .text-balance {
+      text-wrap: balance; /* This is my test rule */
+    }
+  }
