@@ -1,11 +1,11 @@
 "use client";
-import {Button} from 'react-aria-components';
+import {Button} from "react-aria-components";
 
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <p className="text-balance">This is marny's new next.js with Tailwind playground.</p>
+      <p className="text-balance">This is marnys new next.js with Tailwind playground.</p>
 
       <Button
   onBlur={function Ya(){}}
@@ -21,7 +21,6 @@ export default function Home() {
   onPressEnd={function Ya(){}}
   onPressStart={function Ya(){}}
   onPressUp={function Ya(){}}
-  variant="primary"
 >
   Button
 </Button>    </main>
