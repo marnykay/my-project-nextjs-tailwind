@@ -23,6 +23,7 @@ export default function Home() {
   onPressUp={function Ya(){}}
 >
   Button
-</Button>    </main>
+</Button>    
+</main>
   );
 }

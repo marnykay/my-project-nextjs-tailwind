@@ -9,6 +9,7 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    require('tailwindcss-react-aria-components')
+    require('tailwindcss-react-aria-components'),
+    require('tailwindcss-animate')
   ]
 }
